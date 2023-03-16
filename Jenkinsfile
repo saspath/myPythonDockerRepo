@@ -1,6 +1,6 @@
 pipeline {
     
-    agent { dockerfile true }
+    agent any
 
  //   environment {
  //       registry = "068643504245.dkr.ecr.us-east-1.amazonaws.com/api-repo"
