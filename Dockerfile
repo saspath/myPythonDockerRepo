@@ -1,5 +1,5 @@
 # this is my base image
-FROM node:19-bullseye
+FROM alpine:3.5
 
 # Install python and pip
 RUN apk add --update py2-pip
